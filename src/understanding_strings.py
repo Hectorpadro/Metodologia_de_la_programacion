@@ -43,7 +43,48 @@ print("Metodo lower: ", name.lower())
 # Concatenasion de STRINGS
 first_name = "charly"
 last_name = "mercury"
+
 full_name = first_name + " " + last_name
 print(full_name)
-
 print(full_name.title())
+
+# Whitespace 
+
+"""
+    UN whitespace se refiere a cualquier caracter que no
+    se imprime, es decir, un espacio, tabuladores y 
+    finales de linea. LOs whitespace se utilizan 
+    comunemnte para organizar las salidas de tal manera 
+    que sea mas amigable de ller o ver para el usuario.
+
+    Ejemplo:
+
+        -Tabulador: \t
+        salto de linea: \n
+
+"""
+
+print("Whitespace Tabulador")
+print("Python")
+print("\tPython")
+print("\t\tPython")
+
+
+print("Whitespace Salto de linea")
+print("Languages: \n\tPython\nC\n\tJavascripts")
+
+# Eliminacion de espacios en blanco
+
+programin_languages = " Python "
+
+print(programin_languages)
+print(programin_languages.rstrip())
+print(programin_languages.lstrip())
+print(programin_languages.strip())
+
+
+# Syntax Error con Strings 
+
+message = "Una fortaleza de python es su comunidad"
+print(message)
+message = "Una fortaleza de "python" es su comunidad"
