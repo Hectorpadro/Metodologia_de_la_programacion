@@ -90,3 +90,4 @@ if (age) >= 18:
     print("Tu tienes edad para votar") 
 else:
     print("Lo siento eres demasiado joven para votar")
+
