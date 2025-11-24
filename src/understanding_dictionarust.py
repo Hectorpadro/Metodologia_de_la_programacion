@@ -20,3 +20,35 @@ marge["x-position"] = 16
 marge["y-position"] = 26
 marge["z-position"] = 10 
 
+alien_0={'color': 'yellow'}
+print(alien_0['color'])
+
+# Modifying values in a dictionary
+alien_0=['color']='green'
+print(alien_0['color'])
+
+# Add elements to a dictionary
+alien_0['x_position']=0
+alien_0['y_position']=0
+alien_0['name']='Paul'
+
+print(alien_0)
+
+## looping though items
+print("Looping through homer_0 dictionary:")
+for key, value in alien_0.items():
+    print(f"The key {key} Has value: {value}")
+
+
+
+
+
+
+
+
+
+
+#NESTING
+#Listas de diccionarios
+# listas en diccionarios
+# diccionarios en diccionarios
